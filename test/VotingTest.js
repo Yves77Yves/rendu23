@@ -478,7 +478,7 @@ contract("Voting", function (accounts) {
       );
     });
 
-    it("require SetVote: only a voter can vote", async () => {
+    it("require setVote: only a voter can vote", async () => {
       VotingInstance = await Voting.new({ from: owner });
       await VotingInstance.addVoter(voterOne, { from: owner });
       await VotingInstance.startProposalsRegistering({ from: owner });
