@@ -102,6 +102,11 @@ module.exports = {
   mocha: {
     // timeout: 100000
     reporter:'eth-gas-reporter',
+    reporterOptions : {
+      gasPrice:1,
+      token:'ETH',
+      showTimeSpent:true,
+    }
   },
 
   // Configure your compilers
