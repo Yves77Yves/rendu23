@@ -19,7 +19,7 @@ Un test UNSPECIFIED a été ajouté.
 - Once the repository has been downloaded
 - install dotenv : $ npm install --prefix . dotenv 
 - run ganache : $ ganache
-- compile and deploy : truffle migrate 
+- compile and deploy : $ truffle migrate 
 
 ## Lancement des tests
 - run tests : $ truffle test
